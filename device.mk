@@ -90,4 +90,4 @@ PRODUCT_PACKAGES += \
     keystore.qcom
 
 # Call the proprietary setup
-#$(call inherit-product, vendor/samsung/a3lte/a3lte-vendor.mk)
+#$(call inherit-product, vendor/samsung/serranovelte/a3lte-vendor.mk)

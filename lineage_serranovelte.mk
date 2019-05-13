@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/samsung/a3lte/full_a3lte.mk)
+$(call inherit-product, device/samsung/serranovelte/full_serranovelte.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
@@ -21,12 +21,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := lineage_a3lte
+PRODUCT_NAME := lineage_serranovelte
 BOARD_VENDOR := samsung
-PRODUCT_DEVICE := a3lte
+PRODUCT_DEVICE := serranovelte
 
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
+PRODUCT_GMS_CLIENTID_BASE := android-micromax
 
-TARGET_VENDOR_PRODUCT_NAME := SM-A300F
-TARGET_VENDOR_DEVICE_NAME := SM-A300F
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=SM-A300F PRODUCT_NAME=SM-A300F
+TARGET_VENDOR_PRODUCT_NAME := serranovelte
+TARGET_VENDOR_DEVICE_NAME := serranovelte
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=serranovelte PRODUCT_NAME=serranovelte

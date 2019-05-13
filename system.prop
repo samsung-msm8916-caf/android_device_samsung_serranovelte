@@ -25,7 +25,7 @@ ro.sf.lcd_density=240
 ro.sys.fw.dex2oat_thread_count=4
 
 # Radio
-persist.radio.multisim.config=dsds
+persist.radio.multisim.config=none
 ril.ecclist=000,08,100,101,102,110,112,118,119,120,122,911,999
 ril.ecclist1=000,08,100,101,102,110,112,118,119,120,122,911,999
 rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so

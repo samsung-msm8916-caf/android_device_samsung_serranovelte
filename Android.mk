@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), a3lte)
+ifeq ($(TARGET_DEVICE), serranovelte)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

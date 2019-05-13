@@ -20,7 +20,7 @@ FORCE_32_BIT := true
 # Inherit from msm8916-common
 include device/samsung/msm8916-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/a3lte
+DEVICE_PATH := device/samsung/serranovelte
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
@@ -41,8 +41,9 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Kernel
-BOARD_KERNEL_PREBUILT_DT := $(DEVICE_PATH)/dt.img
-TARGET_KERNEL_CONFIG := lineageos_a3_defconfig
+BOARD_CUSTOM_BOOTIMG := true
+BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
+TARGET_KERNEL_CONFIG := lineageos_serranovelte_defconfig
 
 # Power
 TARGET_HAS_NO_POWER_STATS := true
@@ -65,4 +66,4 @@ endif
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Inherit from proprietary files
-#include vendor/samsung/a3lte/BoardConfigVendor.mk
+#include vendor/samsung/serranovelte/BoardConfigVendor.mk

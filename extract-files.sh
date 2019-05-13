@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=a3lte
+DEVICE=serranovelte
 VENDOR=samsung
 
 # Load extract_utils and do some sanity checks
