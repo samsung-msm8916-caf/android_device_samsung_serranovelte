@@ -25,8 +25,11 @@ PRODUCT_NAME := lineage_serranovelte
 BOARD_VENDOR := samsung
 PRODUCT_DEVICE := serranovelte
 
-PRODUCT_GMS_CLIENTID_BASE := android-micromax
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 TARGET_VENDOR_PRODUCT_NAME := serranovelte
 TARGET_VENDOR_DEVICE_NAME := serranovelte
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=serranovelte PRODUCT_NAME=serranovelte
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := SM-I9195I,SM-I9192I,serranovexx,serranovelte,serranove3g
